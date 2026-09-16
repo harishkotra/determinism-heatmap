@@ -1,12 +1,14 @@
 # The Determinism Heatmap
 
-**How deterministic is a language model, really?** Run the same prompt ten times and count how
-often you get byte-identical output. Do that for eight prompts across two models and render
-the result as a single 3D landscape you can read at a glance.
+**How deterministic is a language model, really?** Run the same prompt ten times and count how often you get byte-identical output. Do that for eight prompts across two models and render the result as a single 3D landscape you can read at a glance.
 
 - **Colour** = determinism score (green = every repetition byte-identical, red = the model wanders)
 - **Height** = mean reasoning tokens burned
 - **The punchline** = the tall red corner: prompts that are *expensive and unstable*
+
+<img width="3440" height="2242" alt="determinism-heatmap-f2f7b584" src="https://github.com/user-attachments/assets/11fb13fb-276d-438b-93e6-dc2fbab73e4e" />
+<img width="1735" height="2047" alt="screencapture-localhost-5173-2026-09-16-09_02_52" src="https://github.com/user-attachments/assets/6ea78354-1c37-43e5-ad1c-d2ac3c11dfa2" />
+<img width="1709" height="1108" alt="Screenshot at Sep 16 09-03-04" src="https://github.com/user-attachments/assets/de9bff4d-0910-47bd-a499-e8c3c0d61a8c" />
 
 ---
 
