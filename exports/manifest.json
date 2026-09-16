@@ -1,0 +1,20 @@
+{
+  "exportedAt": "2026-09-16T02:09:51.506Z",
+  "jsonl": "determinism-sweeps.jsonl",
+  "png": "heatmap-export.png",
+  "sweeps": [
+    {
+      "id": "509dfb0e-770c-42c8-a929-2e98a3e0c5c6",
+      "records": 160
+    },
+    {
+      "id": "f2f7b584-c991-449a-a1cc-cb6db0455d53",
+      "records": 160
+    },
+    {
+      "id": "5755b982-5465-4fb9-a6d4-3696553ddd1e",
+      "records": 2
+    }
+  ],
+  "totalRecords": 322
+}

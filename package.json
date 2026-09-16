@@ -1,0 +1,19 @@
+{
+  "name": "determinism-heatmap",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "./scripts/dev.sh",
+    "dev": "concurrently -n server,web -c cyan,magenta \"pnpm -C server dev\" \"pnpm -C web dev\"",
+    "build": "pnpm -C web build",
+    "sweep": "pnpm -C server sweep",
+    "audit": "pnpm -C server audit",
+    "verify:ui": "node scripts/verify-ui.mjs",
+    "verify:png": "node scripts/verify-png.mjs exports/heatmap-export.png",
+    "export:evidence": "node scripts/export-evidence.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
